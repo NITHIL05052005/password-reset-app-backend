@@ -17,7 +17,7 @@ app.use(
 );
 
 // Connect to MongoDB
-connectDB();
+connectDB(); // <- this calls your function which handles connection
 
 // Routes
 app.use('/api/auth', authRoutes);
